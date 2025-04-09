@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kdam+Thmor+Pro&family=Moul&family=Roboto+Condensed&family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #172838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #1c3251;
+  color: white;
+  border-radius: 10px;
+  padding: 16px;
+  max-width: 340px;
+  height: 550px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Profile */
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.eye{
+  font-size: 14px;
+  color: #e5d8d8;
+}
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  background-color: #e53935;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+.profile-info h2 {
+  font-size: 18px;
+}
+
+.profile-info p {
+  font-size: 14px;
+  color: #e5d8d8;
+}
+
+/* Balance Card */
+.balance-card {
+  background-color: #152f4e;
+  border: 1px solid #2a5086;
+  border-radius: 15px;
+  padding: 16px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle-wrapper {
+  width: 90px;
+  height: 90px;
+  position: relative;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(#d0a536 0deg 60deg, #2c7efc 60deg 360deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-circle {
+  width: 75px;
+  height: 75px;
+  background-color: #0e2544;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-circle i {
+  font-size: 22px;
+  margin-bottom: 3px;
+}
+
+.inner-circle span {
+  font-size: 12px;
+}
+
+.balance-info {
+  text-align: right;
+}
+
+.balance-info h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.blur-text {
+  filter: blur(3px);
+}
+
+/* Menus */
+.menu-grid,
+.menu-grid-3 {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.menu-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.menu-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.menu-item,
+.menu-item-small {
+  background-color: #152f4e;
+  border: 1px solid #2a5086;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  transition: 0.3s;
+}
+
+.menu-item:hover,
+.menu-item-small:hover {
+  background-color: #1e3a5e;
+}
+
+/* Menu Item Styles */
+.menu-item {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.menu-icon {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.menu-item-small {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-icon-small {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
