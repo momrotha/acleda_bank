@@ -24,7 +24,6 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-/* Header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -32,16 +31,11 @@ body {
   margin-bottom: 20px;
 }
 
-.logo-area {
-  display: flex;
-  align-items: center;
-}
-
 .logo {
   width: 150px;
 }
 
-.icons {
+.icon-header {
   display: flex;
   gap: 10px;
 }
@@ -78,7 +72,6 @@ body {
   color: #e5d8d8;
 }
 
-/* Balance Card */
 .balance-card {
   background-color: #152f4e;
   border: 1px solid #2a5086;
@@ -106,8 +99,8 @@ body {
 }
 
 .inner-circle {
-  width: 75px;
-  height: 75px;
+  width: 80px;
+  height: 80px;
   background-color: #0e2544;
   border-radius: 50%;
   display: flex;
@@ -115,12 +108,10 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .inner-circle i {
   font-size: 22px;
   margin-bottom: 3px;
 }
-
 .inner-circle span {
   font-size: 12px;
 }
@@ -140,7 +131,6 @@ body {
   filter: blur(3px);
 }
 
-/* Menus */
 .menu-grid,
 .menu-grid-3 {
   display: grid;
@@ -156,42 +146,38 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.menu-item,
-.menu-item-small {
+.all-item,
+.all-item-small {
   background-color: #152f4e;
   border: 1px solid #2a5086;
   border-radius: 10px;
   color: white;
   text-align: center;
   padding: 12px;
-  transition: 0.3s;
 }
-
-.menu-item:hover,
-.menu-item-small:hover {
+.all-item:hover,
+.all-item-small:hover {
   background-color: #1e3a5e;
 }
 
-/* Menu Item Styles */
-.menu-item {
+.all-item {
   display: flex;
   align-items: center;
   font-size: 15px;
 }
-
 .menu-icon {
   font-size: 22px;
   margin-right: 10px;
 }
 
-.menu-item-small {
+.all-item-small {
   font-size: 14px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.menu-icon-small {
+.all-icon {
   font-size: 22px;
   margin-bottom: 10px;
 }
